@@ -45,8 +45,6 @@ p,h1,h2,h3,h4,h5,h6{
 .header .container{
     display: flex;
     align-items: center;
-    /*padding-left: 156px;
-    padding-right: 156px;*/
     width: 1158px;
 }
 .header-nav{
@@ -66,6 +64,8 @@ p,h1,h2,h3,h4,h5,h6{
     color: #4d5ae5;
 }
 .header-logo-part{
+    padding-top: 24px;
+    padding-bottom: 24px;
     color: #2e2f42;
 }
 .header-list {
