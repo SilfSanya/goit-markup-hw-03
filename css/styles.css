@@ -154,8 +154,15 @@ button{
 }
 .visually-hidden{
     position: absolute;
-    clip: rect(0 0 0 0);
+     width: 1px;
+    height: 1px;
+    margin: -1px;
     border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .advantages-list{
     display: flex;
@@ -164,7 +171,7 @@ button{
     padding-right: 156px;
 }
 .advantages-item{
-    width: calc((100% - 24px * 3) / 4);
+    width: calc((100% - 3 * 24px) / 4);
 }
 .advantages-subtitle{
     font-weight: 500;
@@ -206,7 +213,7 @@ button{
 }
 .team-item{
     border-radius: 0 0 4px 4px;
-    width: calc((100% - 24px * 3) / 4);
+    width: calc((100% - 3 * 24px) / 4);
     background-color: #FFF
 }
 .team-name-gob{
@@ -244,7 +251,7 @@ button{
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     color: #2e2f42;
     text-transform: capitalize;
 }
@@ -260,6 +267,7 @@ button{
     width:calc((100% - 48px) / 3) ;
 }
 .portfolio-subtitle-text{
+    border-top: none;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
 }
