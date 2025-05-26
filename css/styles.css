@@ -119,9 +119,9 @@ p,h1,h2,h3,h4,h5,h6{
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    padding-bottom: 48px;
     max-width: 496px;
     margin: 0 auto;
+    margin-bottom: 48px;
     color: #fff;
 }
 button{
